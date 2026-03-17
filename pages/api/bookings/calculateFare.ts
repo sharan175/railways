@@ -89,16 +89,16 @@ export default async function handler(
     // Multipliers for coach type
     const coachFareMultiplier: Record<string, number> = {
       Sleeper: 1.0,
-      AC: 1.5,
+      "AC First": 2.0,
       General: 0.75,
-      "First Class": 2.0,
+      "AC Second": 1.5,
     };
     // Multipliers for train type
     const trainFareMultiplier: Record<string, number> = {
-      Express: 1.2,
-      Local: 1.0,
-      Intercity: 1.1,
-      Superfast: 1.3,
+      EXP: 1.2,
+      LOC: 1.0,
+      PAS: 1.1,
+      SUP: 1.3,
     };
     
     const coachMultiplier = coachFareMultiplier[coachType] || 1.0;

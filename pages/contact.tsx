@@ -152,7 +152,7 @@ export default function ContactPage() {
             </div>
           </section>
 
-          {/* --- Complaint Form Section --- */}
+          {/* --- Complaint Form Section 
           <section>
             <h2 className="text-2xl font-semibold mb-4">
               Lodge a Complaint
@@ -236,6 +236,8 @@ export default function ContactPage() {
               </button>
             </form>
           </section>
+          ---*/}
+
         </div>
       </div>
     </>

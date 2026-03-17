@@ -276,7 +276,7 @@ export default function DetailsPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                       <div>
                         <p className="text-gray-700">
-                          <span className="font-bold">ID: </span>
+                          <span className="font-bold">Paasseger-ID: </span>
                           {p.passenger_id}
                         </p>
                       </div>
